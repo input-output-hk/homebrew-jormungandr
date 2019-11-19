@@ -26,7 +26,7 @@ brew install input-output-hk/jormungandr/jormungandr
 ### Unreleased head version :godmode:
 
 Also can be used to install the latest git version, which is not
-recommend for normal use cases:
+recommended for normal use cases:
 
 ```shell```
 brew install --HEAD jormungandr
