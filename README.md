@@ -1,10 +1,15 @@
-This is a homebrew tap for the jormungandr blockchain service
+Jormungandr Homebrew Tap
+========================
 
-First, you need to add the tap :
+This is a [homebrew](https://brew.sh/) tap for the jormungandr blockchain service.
+
+First, you need to add the tap:
 
 ```shell
 brew tap input-output-hk/jormungandr
 ```
+
+### Latest released version :office:
 
 then install jormungandr from this new tap:
 
@@ -12,8 +17,17 @@ then install jormungandr from this new tap:
 brew install jormungandr
 ```
 
-or the fully qualified form (if you might have a duplicated jormungandr formula):
+or equivalently the fully qualified form (if you might have a duplicated jormungandr formula):
 
 ```shell
 brew install input-output-hk/jormungandr/jormungandr
+```
+
+### Unreleased head version :godmode:
+
+Also can be used to install the latest git version, which is not
+recommend for normal use cases:
+
+```shell```
+brew install --HEAD jormungandr
 ```
