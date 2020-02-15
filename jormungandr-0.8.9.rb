@@ -1,13 +1,13 @@
 class Jormungandr < Formula
   desc "aspiring blockchain node"
   homepage "https://input-output-hk.github.io/jormungandr/"
-  url "https://github.com/input-output-hk/jormungandr/archive/v0.8.10-2.tar.gz"
-  sha256 "574aa491b3200c60e1a562006bbc972fa8db87e30e0be706b6b09cfdadfb3e45"
+  url "https://github.com/input-output-hk/jormungandr/archive/v0.8.9.tar.gz"
+  sha256 "19baf3c8108d6b5d12e08e551133dc6e63d3f3b54a9a4c7f1e8aedc99edbe62c"
   head "https://github.com/input-output-hk/jormungandr/", :using => :git
 
   resource "chain-deps" do
-    url "https://github.com/input-output-hk/chain-libs/archive/chain-libs-v0.8.10-2.tar.gz"
-    sha256 "efd5b340499b5835c4a088421cec107b8d4dbf74412444e29091719337ee2656"
+    url "https://github.com/input-output-hk/chain-libs/archive/chain-libs-v0.8.9.tar.gz"
+    sha256 "2428d2bc8d22d95151c7e3b821700355c31930fac5f2aa85351b1de52b319c32"
   end
 
   depends_on "rust" => :build
